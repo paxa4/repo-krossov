@@ -58,77 +58,77 @@ section {
     transition: transform 0.3s;
 }
 .product:hover {
-    transform: scale(1.03); /* Увеличение при наведении */
+    transform: scale(1.03); 
 }
 
 .product img {
-    max-width: 100%; /* Адаптивное изображение */
-    height: auto; /* Автоматическая высота */
-    border-radius: 8px; /* Закругленные углы для изображений */
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px; 
 }
 
 footer {
-    text-align: center; /* Центрирование текста в подвале */
-    padding: 15px 0; /* Отступы сверху и снизу */
-    background: #007bff; /* Цвет фона подвала */
-    color: white; /* Цвет текста подвала */
-    position: relative; /* Позиционирование */
-    bottom: 0; /* Прикрепление к низу */
-    width: 100%; /* Ширина на всю страницу */
+    text-align: center; 
+    padding: 15px 0; 
+    background: #007bff; 
+    color: white; 
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
 }
 
 form {
-    display: flex; /* Используем flexbox для формы */
-    flex-direction: column; /* Вертикальное расположение элементов */
+    display: flex;
+    flex-direction: column; 
 }
 
 label {
-    margin-top: 10px; /* Отступ сверху для меток */
-    font-weight: bold; /* Жирный шрифт для меток */
+    margin-top: 10px; 
+    font-weight: bold; 
 }
 
 input, textarea {
-    padding: 10px; /* Отступы внутри полей */
-    border: 1px solid #ccc; /* Цвет границы */
-    border-radius: 4px; /* Закругленные углы */
-    margin-top: 5px; /* Отступ сверху для полей */
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 5px; 
 }
 
 h3 {
-    color: #333; /* Цвет заголовка */
-    font-size: 24px; /* Размер шрифта заголовка */
-    margin-bottom: 15px; /* Отступ снизу */
+    color: #333; 
+    font-size: 24px; 
+    margin-bottom: 15px; 
 }
 
 p {
-    color: #555; /* Цвет текста */
-    line-height: 1.6; /* Межстрочный интервал */
+    color: #555; 
+    line-height: 1.6; 
 }
 
 ul {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем внутренние отступы */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 a {
-    color: #007bff; /* Цвет ссылок */
-    text-decoration: none; /* Убираем подчеркивание */
+    color: #007bff;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;/* Подчеркивание при наведении */
+    text-decoration: underline;
     color: #ff6f61; 
 }
 
 img {
-    border-radius: 8px; /* Закругленные углы для изображений */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Тень для изображений */
-    width: 300px; /* Фиксированная ширина */
-    height: 300px; /* Фиксированная высота */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    width: 300px; 
+    height: 300px;
 }
 
 body {
-    max-width: 1200px; /* Максимальная ширина для всего контента */
-    margin: 0 auto; /* Центрирование контента */
-    padding: 0 20px; /* Отступы по бокам */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
 }

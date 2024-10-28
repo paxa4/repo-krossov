@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Светлый бежевый фон */
+    background-color: #f9f9f9; 
 }
 
 
 header {
-    background: #0056b3; /* Глубокий синий цвет заголовка */
+    background: #0056b3; 
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -16,28 +16,28 @@ header {
 }
 
 nav ul {
-    list-style: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем внутренние отступы */
+    list-style: none; 
+    padding: 0; 
 }
 
 nav ul li {
-    display: inline; /* Горизонтальное расположение элементов списка */
-    margin: 0 20px; /* Отступы между элементами */
+    display: inline; 
+    margin: 0 20px; 
 }
 
 nav a {
-    color: white; /* Цвет ссылок в навигации */
+    color: white; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
-    color: #ff6f61; /* Цвет при наведении */
+    text-decoration: underline; 
+    color: #ff6f61;
 }
 
 main {
-    padding: 20px; /* Отступы вокруг основного содержимого */
+    padding: 20px; 
 }
 
 section {
